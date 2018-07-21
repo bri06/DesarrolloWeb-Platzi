@@ -1,0 +1,35 @@
+
+*{
+    border: 1px solid red;
+    margin: 10px;
+}
+
+section{
+    background: purple;
+}
+
+/* Selector descendente*/
+
+article h3{ /* Asi podemos ser mas especificos, afecta a los h3 dentro de article*/
+    background: green;
+}
+
+/* Selectores de clase*/
+
+.title-a{
+    background: yellow;
+}
+
+.title-b{
+    background: salmon;
+}
+
+/* Selector id*/
+
+#portada{
+
+}
+
+#guitarra{
+
+}
