@@ -14,10 +14,6 @@ body{
     margin: 0;
 }
 
-header{
-    width: 1000px;
-    margin: auto;
-}
 .titulo{
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
@@ -39,8 +35,6 @@ header{
 
 .guitarras{
     color: 1F313C;
-    width: 1000px;
-    margin: auto;
 }
 
 .guitarras h2 {
@@ -52,8 +46,6 @@ header{
     background-image: url('../images/background.png');
     color: white;
     padding: 20px;
-    width: 1000px;
-    margin: auto;
 }
 
 .portada button{
@@ -70,4 +62,9 @@ header{
 
 .menu li{
     margin-left: 30px;
+}
+
+.contenedor{
+    width: 1000px;
+    margin: auto;
 }
