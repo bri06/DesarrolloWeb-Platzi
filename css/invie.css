@@ -104,3 +104,20 @@ button{
 .header{
     position: relative;
 }
+
+.footer{
+    background: #273b47;
+}
+
+.contacto img{
+    display: block; /* Hacemos que los elementos que se encuentren seguidos de la imagen se ubiquen debajo de ella*/
+}
+
+.contacto strong{
+    display: block;
+}
+
+.contacto a{
+    color: white;
+    text-decoration: none;
+}
