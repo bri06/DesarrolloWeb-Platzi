@@ -33,7 +33,7 @@
       <div class="contenedor">
         <h1 class="titulo">Guitarras invisibles</h1>
         <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3>
-        <button>Conoce más</button>
+        <button class="button">Conoce más</button>
     </div>
     </section>
 
@@ -66,31 +66,34 @@
 
     <footer class="footer">
         <div class="contenedor">
-          <div class="contacto">
-             <img src="images/invie-white.png" alt="logotipo blanco" />
-             <a href="tel:+34653874612"><strong>Teléfono</strong> <span>653874612</span></a> 
-             <a href="mailto:contacto@invie.com"><strong>Email</strong> <span>contacto@invie.com</span></a>
-          </div>
+            <div class="contacto">
+                <img src="images/invie-white.png" alt="logotipo blanco" />
+                <a href="tel:+34653874612"><strong>Teléfono</strong> <span>653874612</span></a> 
+                <a href="mailto:contacto@invie.com"><strong>Email</strong> <span>contacto@invie.com</span></a>
+            </div>
 
             <form class="formulario">
-                <label for="nombre">Nombre</label>
-                <input type="text" required id="nombre" name="nombre"/>
-                <label for="email">Email</label>
-                <input type="email" required id="email" name="email"/>
-                <div class="sexo">
-                <label for="hombre"><input type="radio" id="hombre" name="sexo" value="hombre">Hombre</label>
-                <label for="mujer"><input type="radio" id="mujer" name="sexo" value="mujer">Mujer</label>
+                <div class="col1">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" required id="nombre" name="nombre"/>
+                    <label for="email">Email</label>
+                    <input type="email" required id="email" name="email"/>
+                    <div class="sexo">
+                    <label for="hombre"><input type="radio" id="hombre" name="sexo" value="hombre">Hombre</label>
+                    <label for="mujer"><input type="radio" id="mujer" name="sexo" value="mujer">Mujer</label>
+                    </div>
+                
+                    <div class="intereses">
+                        <label for="hombre"><input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">cotizacion</label>
+                        <label for="hombre"><input type="checkbox" id="reclamos" name="intereses" value="reclamos">reclamos</label>
+                        <label for="hombre"><input type="checkbox" id="comentarios" name="intereses" value="comentarios">comentarios</label>
+                        <label for="hombre"><input type="checkbox" id="otros" name="intereses" value="otros">otros</label>
+                    </div>
                 </div>
-                <div class="intereses">
-                    <label for="hombre"><input type="checkbox" id="cotizacion" name="intereses" value="cotizacion">cotizacion</label>
-                    <label for="hombre"><input type="checkbox" id="reclamos" name="intereses" value="reclamos">reclamos</label>
-                    <label for="hombre"><input type="checkbox" id="comentarios" name="intereses" value="comentarios">comentarios</label>
-                    <label for="hombre"><input type="checkbox" id="otros" name="intereses" value="otros">otros</label>
-                </div>
-                <div>
+                <div class="col2">
                     <label for="comentarios">Comentarios</label>
                     <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="button"/>
                 </div>
             </form>
 

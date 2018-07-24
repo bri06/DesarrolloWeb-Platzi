@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-button{
+.button{
     border-radius: 5px;
     border: none;
     background: #fd324e;
@@ -120,4 +120,86 @@ button{
 .contacto a{
     color: white;
     text-decoration: none;
+    margin: 10px 10px 10px 0;
 }
+
+.contacto{
+    display: flex;
+    width: 300px; /* Le ponemos un ancho a este elemento para que nos cuadre mejor*/
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer .contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario{
+    display: flex;
+    width: 400px;
+    color: white;
+    padding: 50px 10px;
+}
+
+.col1, col2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col1{
+    margin-right: 20px;
+}
+
+col2{
+    align-items: cen-start;
+}
+
+.col1 .sexo{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.intereses label{
+    font-size: 10px;
+}
+
+.formulario label, .sexo, .intereses{
+    margin-bottom: 5px;
+}
+
+/*
+    USO DE FLexbox
+    OJO: flex solo afecta a hijos directos
+
+    display: flex;
+
+    una vez agregada esta propiedad podemos añadir:
+    justify-content: flex-star;
+    justifica el contenido: con flexibilidad hacia el inicio o hacia la izquierda,
+
+    justify-content: flex-star;
+    justifica el contenido: con flexibilidad hacia el final o hacia la derecha,
+
+    justify-content: center;
+    justifica el contenido: dando flexibilidad al centro,
+
+    justify-content: space-around;
+    justifica el contenido: dejando espacios alrededor o a los lados,
+
+    justify-content: space-between;
+    justifica el contenido: dejando espacio entre objeto y objeto, pero eliminando el espacio al inicio de línea y al final de línea.
+
+    luego podre agregar la propiedad wrap
+    flex-wrap: nowrap;
+    flexibilidad a los objetos que rodean: estará desactivada osea se desbordaran sobreponiendose (colocándose uno encima de otro) si el ancho de ventana o linea en muy corto.
+
+    flex-wrap: wrap;
+    flexibilidad a los objetos que rodean: estará activa, permitiendo la auto-distribución de los objetos-caja de tal forma que sean visibles en la ventana.
+
+    Finalmente: para dirección de visualización
+    flex-direction: row;
+    orientación de flexibilidad en: fila.
+
+    flex-direction: column;
+    orientación de flexibilidad en: columna
+*/
