@@ -223,3 +223,10 @@ table, td, th{
     border: 1px solid #273b47;
     border-collapse: collapse;
 }
+
+.menu li::before{ /* Para poner el elemento antes que otro(before) sino usariamos after para verlo en el otro lado*/
+    content: '·';
+    font-size: 50px;
+    line-height: 20px;
+    color: blue;
+}
