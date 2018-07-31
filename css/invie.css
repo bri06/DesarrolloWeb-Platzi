@@ -203,3 +203,23 @@ col2{
     flex-direction: column;
     orientación de flexibilidad en: columna
 */
+
+table{
+    width: 100%; /*Le ponemos el año igual al que tiene su padre, es decir contenedor*/
+}
+
+th{
+    background: #273b47;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+td{
+    padding: 20px;
+}
+
+table, td, th{
+    border: 1px solid #273b47;
+    border-collapse: collapse;
+}
